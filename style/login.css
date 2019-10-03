@@ -1,0 +1,17 @@
+.login-container {
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+    border-radius: 1px;
+    margin: 0 0 10px;
+    padding: 10px 0;
+}
+
+/* .img {
+    /* background-position: -98px 0; */
+/* height: 51px;
+    width: 175px;
+    display: block;
+    overflow: hidden; */
+/* text-indent: 110%; */
+/* white-space: nowrap; */
+/* margin: 22px auto 12px; */
