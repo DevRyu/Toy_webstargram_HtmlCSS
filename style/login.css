@@ -1,17 +1,95 @@
+/*============================
+#login-container
+============================*/
+
 .login-container {
-    background-color: #fff;
     border: 1px solid #e6e6e6;
     border-radius: 1px;
     margin: 0 0 10px;
     padding: 10px 0;
+    /* 인스타 꺼 그대로 가져옴 */
 }
 
-/* .img {
-    /* background-position: -98px 0; */
-/* height: 51px;
-    width: 175px;
+.white-border.img {}
+
+/*============================
+#instalogo
+============================*/
+#instalogo {
     display: block;
-    overflow: hidden; */
-/* text-indent: 110%; */
-/* white-space: nowrap; */
-/* margin: 22px auto 12px; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    /* 이미지 정중앙에 배치시키기 */
+}
+
+.white-border.loginfo {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
+/*============================
+#idInput,#passInput
+============================*/
+#idInput,
+#passInput {
+    display: block;
+    align-items: center;
+    border: none !important;
+    border-radius: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    background-color: #fefefe;
+}
+
+/*============================
+#idInput
+============================*/
+#idInput {
+    margin-top: 8%;
+    margin-bottom: 1%;
+}
+
+
+/*============================
+#passInput
+============================*/
+#passInput {
+    margin-bottom: 2%;
+}
+
+/*============================
+#loginButton
+============================*/
+#loginButton {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #3897f0;
+    border: 1px solid #3897f0;
+    border-radius: 4px;
+    color: white;
+    padding: 5px 70px;
+    margin-bottom: 12%;
+}
+
+/*============================
+#forgetPw
+============================*/
+#forgetPw {
+    display: block;
+    padding-left: auto;
+    padding-right: auto;
+    text-align: center;
+    font-size: 5px;
+}
+
+a {
+    text-decoration: none !important;
+    text-decoration: underline;
+    color: #053b6d;
+}
