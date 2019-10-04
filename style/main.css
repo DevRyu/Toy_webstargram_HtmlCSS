@@ -40,7 +40,6 @@ nav {
 
 .rightMenu {
     display: inline;
-
 }
 
 .serchMenu {
@@ -60,25 +59,51 @@ nav {
 
 .main-contents {
     background-color: red;
+    float: left;
+    width: 60%;
 
 }
+
+article {
+    float: right;
+}
+
+.maindata {}
 
 .feedProfileImg {}
 
 .feedMainImg {}
 
+.main-imoticon {}
+
+.comment {}
+
+.commentwrite {}
+
+.buttonShape {}
+
 .side-contents {
+    display: inline;
+    float: right;
+    width: 40%;
     background-color: yellow;
 }
 
 .rigthMyView {
+    height: 50px;
     background-color: blue;
 }
 
 .rigthMyStory {
+    height: 280px;
     background-color: aqua;
 }
 
 .rightMyrecomend {
+    height: 200px;
     background-color: blueviolet;
+}
+
+.all-contents {
+    height: 50%;
 }
