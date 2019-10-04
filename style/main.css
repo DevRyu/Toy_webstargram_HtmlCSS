@@ -71,8 +71,14 @@ nav {
     background-color: yellow;
 }
 
-.rigthMyView {}
+.rigthMyView {
+    background-color: blue;
+}
 
-.rigthMyStory {}
+.rigthMyStory {
+    background-color: aqua;
+}
 
-.rightMyrecomend {}
+.rightMyrecomend {
+    background-color: blueviolet;
+}
