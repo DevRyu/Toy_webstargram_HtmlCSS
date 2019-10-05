@@ -3,65 +3,83 @@ html {
 }
 
 body {
-    min-width: 1060px;
+    min-width: 500px;
+    line-height: 1.6;
+    margin: 0;
 }
 
-nav {
-    display: block;
-    margin-left: 70px;
-    max-width: auto;
-    height: 77px;
-    padding: 26px 20px;
-    background-color: gray;
-}
-
-.navLogo {
+.header {
+    position: fixed;
     display: inline;
-    margin-right: 50%;
-    margin-left: 10px;
-    border-left: 10px;
-    border-left-color: black;
+    min-width: 500px;
+    max-width: 1400px;
+    background: #0c4b33;
+    height: 72px;
+    padding: 15px 0 4px;
 }
 
-#loGo {
-    display: inline;
-    margin-left: 10px;
-    border-left: 10px;
-    border-left-color: black;
-
+.container {
+    display: inherit;
 }
 
-.rightMenuUi {
-    display: inline;
-    padding-inline-end: 70%;
-
-
-}
-
-.rightMenu {
-    display: inline;
-}
-
-.serchMenu {
-    display: inline;
+.container,
+.container-float {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+    position: relative;
 
 }
 
-.heartMenu {
-    display: inline;
+.logo {
+    padding-left: inherit;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 
+.logotext {
+    margin: 0;
+    padding-left: inherit;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 20px;
+    margin-left: 80px;
 
 }
 
-.myPageMenu {
+
+.nav {
+    display: inherit;
+    text-align: right;
+}
+
+.list {
     display: inline;
+    margin: 0;
+    font-size: 0;
+}
+
+.list-item {
+    display: inline;
+}
+
+.list-item>a {
+    color: white;
+    display: inherit;
+    padding: 10px;
+}
+
+.list-item>a:hover {
+    color: #c9f0dd;
 }
 
 .main-contents {
     background-color: red;
+    margin-top: 120px;
     float: left;
     width: 60%;
-
 }
 
 article {
@@ -83,6 +101,8 @@ article {
 .buttonShape {}
 
 .side-contents {
+    position: fixed;
+    margin-top: 120px;
     display: inline;
     float: right;
     width: 40%;
