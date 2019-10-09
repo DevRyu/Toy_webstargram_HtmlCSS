@@ -1,0 +1,108 @@
+html {
+  background-color: #eee;
+}
+
+main {
+  background-color: #eee;
+}
+
+/* top navigator */
+nav {
+  display: block;
+  position: fixed;
+  background-color: white;
+  width: auto;
+  min-width: 800px;
+}
+
+.nav-top {}
+
+.left-nav {}
+
+.rigth-nav {}
+
+/* feeds */
+
+.feeds {
+  display: block;
+}
+
+article {
+  float: left;
+  background-color: green;
+  display: block;
+  width: 60%;
+  margin-top: 80px;
+}
+
+.feeds-poster-box {}
+
+.circle-img {}
+
+.feed-poster-info {}
+
+.feed-poster-moreMenu {}
+
+.feeds-poster-img-box {}
+
+.feeds-poster-img-main {}
+
+.feeds-user-menu-box {}
+
+.feeds-user-right-menu {}
+
+.feeds-user-left-menu {}
+
+.feeds-user-likes-box {}
+
+.feeds-user-likes-img {}
+
+.feeds-user-comment-box {}
+
+.feeds-user-comment-id {}
+
+.feeds-user-comment-context {}
+
+.feeds-user-comment-context-more {}
+
+.feeds-user-comment-post-box {}
+
+/* main right */
+.main-right {
+  display: inline-block;
+  background-color: blue;
+  width: 30%;
+  margin-top: 80px;
+  position: fixed;
+
+}
+
+.main-right-poster-box {}
+
+.rigth-circle-img {}
+
+.right-poster-info {}
+
+.main-right-story-box {}
+
+.main-right-story-menu {}
+
+.main-right-story {}
+
+.main-right-story-more {}
+
+.main-right-story-context {}
+
+.main-right-recommend-box {}
+
+.main-right-recommend-menu {}
+
+.main-right-recommend {}
+
+.main-right-recommend-more {}
+
+.main-right-recommend-context {}
+
+.follow {}
+
+.main-right-infobox {}

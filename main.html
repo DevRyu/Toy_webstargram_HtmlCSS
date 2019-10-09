@@ -9,7 +9,7 @@
   </head>
   <body>
     <script src="js/main.js"></script>
-    <header class="header">
+    <header class="headerClass">
       <div class="container">
         <h1 class="logo">
           <img
@@ -17,6 +17,9 @@
             alt="Django"
           />
         </h1>
+        <form class="serachForm">
+          <input type="text" placeholder="입력" />
+        </form>
         <h1 class="logotext">
           <img src="img/logo_text.png" alt="" />
         </h1>
@@ -51,7 +54,10 @@
         <article>
           <div class="maindata">
             <div class="feedProfileImg">
-              <img src="" alt="" />
+              <span class="profile-circle">
+                <img src="./img/wecode_logo.png" alt="wecode" />
+              </span>
+              <span class="userId">wecode_bootcamp</span>
             </div>
             <div class="feedMainImg">
               <img
