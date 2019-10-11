@@ -63,7 +63,6 @@ nav {
   width: 40%;
   margin-top: 80px;
   margin-left: 70px;
-
 }
 
 article {
@@ -78,7 +77,6 @@ article {
 }
 
 /* article */
-
 
 .feeds-poster-box {
   margin-top: 10px;
@@ -99,23 +97,19 @@ article {
   text-indent: 40px;
 }
 
-
 .feed-poster-moreMenu {
   width: 30px;
   height: 30px;
   float: right;
 }
 
-
-
 /* poster-img-box */
-.feeds-poster-img-box {}
+.feeds-poster-img-box {
+}
 
 .feeds-poster-img-main {
   width: 100%;
 }
-
-
 
 /* user-menu-box */
 .feeds-user-menu-box {
@@ -128,16 +122,12 @@ article {
   height: 20px;
 }
 
-
-
 /* user-left-menu */
 .feeds-user-left-menu {
   width: 20px;
   height: 20px;
   float: right;
 }
-
-
 
 /* user-likes */
 .feeds-user-likes-box {
@@ -157,8 +147,6 @@ article {
   font-size: 12px;
   vertical-align: top;
 }
-
-
 
 /* user-comment-box */
 .feeds-user-comment-box {
@@ -182,9 +170,9 @@ article {
   color: gray;
 }
 
-
 /* comment-post */
-.feeds-user-comment-post-box {}
+.feeds-user-comment-post-box {
+}
 
 .comment-post {
   display: inline-block;
@@ -214,7 +202,6 @@ button {
   position: fixed;
   float: right;
   margin-left: 20px;
-
 }
 
 /* main-right-poster-box */
@@ -263,7 +250,6 @@ button {
   opacity: 0.5;
 }
 
-
 .main-right-recommend-box {
   background-color: white;
   margin-bottom: 5px;
@@ -272,8 +258,7 @@ button {
   padding: 15px;
 }
 
-
-.main-right-recommend-menu {}
+/* .main-right-recommend-menu {}
 
 .main-right-recommend {}
 
@@ -283,7 +268,7 @@ button {
 
 .follow {}
 
-.main-right-infobox {}
+.main-right-infobox {} */
 
 p {
   color: gray;
