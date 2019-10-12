@@ -1,3 +1,5 @@
+/* tag */
+
 * {
   box-sizing: border-box;
 }
@@ -18,6 +20,11 @@ body {
 ul {
   list-style: none;
 }
+p {
+  color: gray;
+  display: block;
+}
+
 
 /* top navigator */
 nav {
@@ -270,7 +277,3 @@ button {
 
 .main-right-infobox {} */
 
-p {
-  color: gray;
-  display: block;
-}
